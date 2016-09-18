@@ -46,7 +46,7 @@ function generatePassword($dictionary, $symbols, $numWords = 4, $numNumbers = 1,
     return $passwordString;
 }
 
-$dictionary = file("generator_sources/google-10000-english-usa.txt");
+$dictionary = file("generator_sources/inception_words.txt");
 $symbols = file("generator_sources/symbols.txt");
 
 
