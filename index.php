@@ -1,5 +1,5 @@
 <?php
-    require('generator.php');
+    require('passwordGenerator.php');
 ?>  
 <html>
     <head>
