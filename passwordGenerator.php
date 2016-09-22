@@ -73,7 +73,7 @@ class PasswordGenerator
         # add symbols
         for ($i = 0; $i < $numSymbols; $i++)
         {
-            $passwordString .= $symbols[rand(0, count($symbols) - 1)];
+            $passwordString .= trim($symbols[rand(0, count($symbols) - 1)]," \t\n\r");;
         }
 
 

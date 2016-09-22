@@ -39,7 +39,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/main.css" />
         <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/font-awesome.min.css" />
         <title>Nolan Password Generator</title>
     </head>
     <body>
@@ -76,7 +75,7 @@
                     <select class="form-control" id="numberOfNumbers" name="numberOfNumbers">
                         <?php
                         # create an options list and keep the previously selected value
-                        for($i = 0; $i < 9; $i++){
+                        for($i = 0; $i < 10; $i++){
                             if($_POST["numberOfNumbers"] == $i){
                                 echo "<option selected>".$i."</option>";
                             }
@@ -93,7 +92,7 @@
                     <select class="form-control" id="numberOfSymbols" name="numberOfSymbols">
                         <?php
                         # create an options list and keep the previously selected value
-                        for($i = 0; $i < 9; $i++){
+                        for($i = 0; $i < 10; $i++){
                             if($_POST["numberOfSymbols"] == $i){
                                 echo "<option selected>".$i."</option>";
                             }

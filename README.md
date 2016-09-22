@@ -23,10 +23,9 @@ The index.php page validates input while the passwordGenerator.php contains a Pa
 
 
 ## Demo
-
+http://screencast.com/t/AkfNFcS7FaV
 
 ## Outside code and resources
-* Font Awesome: <http://fontawesome.io/>
 * Bootstrap: <http://getbootstrap.com/>
 * Movie Scripts: <http://www.screenplaylists.com/top-screenplays-by-christopher-nolan/> <http://www.imsdb.com/>
 * Images: <http://www.impawards.com> <http://www.digitalspy.com/>
