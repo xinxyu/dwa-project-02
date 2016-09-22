@@ -44,7 +44,7 @@
     </head>
     <body>
     <div class="container">
-        <h1 class="text-center"> Nolan Password Generator</h1>
+        <h1 class="text-center">XKCD Nolan Password Generator </h1>
         <div id="movieImage" class="text-center ">
             <img class="img-circle" src="images/<?php echo $imageName ?>">
 
