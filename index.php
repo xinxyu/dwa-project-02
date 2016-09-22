@@ -43,7 +43,7 @@
     <body>
     <div class="container">
         <h1 class="text-center"> Nolan Password Generator</h1>
-        <div id = "password-text"class="text-center alert alert-info" role="alert"><?echo $password; ?></div>
+        <div id = "password-text"class="text-center alert alert-info" role="alert"><?php echo $password; ?></div>
 
         <form method="post">
             <div class="form-group">
