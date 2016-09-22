@@ -1,3 +1,32 @@
 #password-text{
-    font-size: 1.75em;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 2.0em;
+    color:#white;
+}
+.container .btn{
+    color:white;
+    background-color:black;
+    border-color:black;
+}
+.container .btn:hover, .container .btn:active, .container .btn:focus{
+    color:white;
+    background-color:#444444;
+    border-color:#444444;
+}
+
+.container .alert-info{
+    color: white;
+    background-color:black;
+    border-color:black;
+}
+#movieImage{
+    padding: 3em 3em;
+}
+#movieImage img{
+    max-height: 200px;
+}
+
+.container h1{
+    font-size: 2.75em;
+    font-weight: 300;
 }

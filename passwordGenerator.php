@@ -123,9 +123,6 @@ class PasswordGenerator
     public function generatePassword($dictionaryPick, $numWords, $numNumbers, $numSymbols, $separator)
     {
 
-        # validate input, if not valid set to a default value
-
-
         if ($dictionaryPick == "random")
         {
             $randomDictionary = $this->pickRandomDictionary();
