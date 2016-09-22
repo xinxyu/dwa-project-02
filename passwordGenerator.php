@@ -73,6 +73,7 @@ class PasswordGenerator
         # add symbols
         for ($i = 0; $i < $numSymbols; $i++)
         {
+            # remove whitespace from symbols
             $passwordString .= trim($symbols[rand(0, count($symbols) - 1)]," \t\n\r");;
         }
 
@@ -135,8 +136,8 @@ class PasswordGenerator
 
         $symbols = file($this->sourceDirectory . "/symbols.txt");
 
-
-        $password = $this->generateTokens($dictionary, $symbols, $numWords, $numNumbers, $numSymbols, $separator);
+        # convert any symbol to HTML entities
+        $password = htmlentities ($this->generateTokens($dictionary, $symbols, $numWords, $numNumbers, $numSymbols, $separator));
 
 
         return $password;
