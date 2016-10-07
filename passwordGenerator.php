@@ -117,7 +117,7 @@ class PasswordGenerator
 
     function validNumber($variable)
     {
-        return is_numeric($variable) && is_int((int)$variable) && (int)$variable >= 0;
+        return is_numeric($variable) && is_int((int)$variable) && (int)$variable >= 0 && (int)$variable <= 10;
     }
 
 

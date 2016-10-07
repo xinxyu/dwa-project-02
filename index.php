@@ -32,6 +32,8 @@
     $password = $passwordGenerator->generatePassword($_POST["source"],$_POST["numberOfWords"],$_POST["numberOfNumbers"],$_POST["numberOfSymbols"], $_POST["separator"]);
 
     $imageName = str_replace("_words.txt","",$_POST["source"]).".jpg";
+    $altText = str_replace("_words.txt","",$_POST["source"]);
+    $altText = str_replace("_"," ",$altText);
 
 ?>
 <!DOCTYPE HTML>
@@ -48,7 +50,7 @@
         <h1 class="text-center">XKCD Nolan Password Generator </h1>
         <div class="row text-center"><p>An <a href="http://xkcd.com/936/">xkcd style</a> password generator using words from <a href="https://en.wikipedia.org/wiki/Christopher_Nolan"> Christopher Nolan's</a> movies</p></div>
         <div id="movieImage" class="text-center ">
-            <img class="img-circle" src="images/<?php echo $imageName ?>"/>
+            <img class="img-circle" src="images/<?php echo $imageName ?>" alt="<?php echo $altText ?>"/>
         </div>
 
         <div id = "password-text" class="text-center alert alert-info" role="alert"><?php echo $password; ?></div>
