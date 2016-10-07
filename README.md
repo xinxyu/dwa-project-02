@@ -7,7 +7,7 @@
 A password generator described by this [xkcd comic](http://xkcd.com/936/)
 
 This password generator uses words from Christopher Nolan's movies.
-The list of words were retrieved by running a PHP scraper (scraper/scriptScraper.php)
+The list of words was retrieved by running a PHP scraper (scraper/scriptScraper.php)
 through the following movie scripts:
 * Batman Begins
 * Inception
@@ -26,6 +26,11 @@ The index.php page validates input while the passwordGenerator.php contains a Pa
 http://screencast.com/t/AkfNFcS7FaV
 
 ## Outside code and resources
-* Bootstrap: <http://getbootstrap.com/>
-* Movie Scripts: <http://www.screenplaylists.com/top-screenplays-by-christopher-nolan/> <http://www.imsdb.com/>
-* Images: <http://www.impawards.com> <http://www.digitalspy.com/>
+* Bootstrap
+  * <http://getbootstrap.com/>
+* Movie Scripts 
+  * <http://www.screenplaylists.com/top-screenplays-by-christopher-nolan/>
+  * <http://www.imsdb.com/>
+* Images
+  * <http://www.impawards.com>
+  * <http://www.digitalspy.com/>
