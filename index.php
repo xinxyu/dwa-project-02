@@ -44,6 +44,15 @@
         <link rel="stylesheet" href="css/main.css" />
         <link rel="stylesheet" href="css/bootstrap.min.css" />
         <title>Nolan Password Generator</title>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119892439-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-119892439-1');
+        </script>
     </head>
     <body>
     <div class="container">
